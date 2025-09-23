@@ -10,7 +10,7 @@ def main():
     if 5>10:
         print("Impossible")
     else:
-        print("Hello")
+        print("Hii Hello")
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
