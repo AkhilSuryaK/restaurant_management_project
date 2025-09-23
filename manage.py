@@ -9,6 +9,8 @@ def main():
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'restaurant_management.settings')
     if 5>10:
         print("Impossible")
+    else:
+        print("Hii")
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
